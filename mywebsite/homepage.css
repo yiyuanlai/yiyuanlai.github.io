@@ -1,0 +1,377 @@
+
+body{
+    margin:0px;
+    top:0px;
+    bottom:0px;
+    overflow-y: scroll;
+    width: 100%;
+}
+
+.menubar { background:rgb(6, 6, 6);
+  width:20%;
+  height:100vh;
+  position: absolute;
+  position: fixed;
+  z-index: 999;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.logobox{
+  width:120px;
+  position: absolute;
+  transform:translateX(50%);
+  top: 20%;
+  z-index: 7;
+  right: 50%;
+}
+
+.logo {
+  width:120px;
+  height:120px;
+  overflow: hidden;
+  position: relative;
+}
+
+.logo1 {
+  width:100%;
+  height:auto;
+  position: absolute;
+}
+
+.logo2{
+  position: absolute;
+  top:0px;
+  width:120px;
+  height:120px;
+  opacity: 0;
+  z-index: 9;
+}
+
+
+
+.box{
+  position: absolute;
+  top:-120px;
+  right: 120px;
+  width:120px;
+  height:120px;
+  background-color: white;
+  transform: rotate(45deg);
+}
+
+.myname{
+  color:white;
+  font-family: 'Poppins', sans-serif;
+  text-align: justify;
+  text-align: center;
+  font-size: 24px;
+  position: absolute;
+  top:120px;
+}
+
+
+
+.job{
+  width: 100%;
+  color:white;
+  font-family: 'Poppins', sans-serif;
+  text-align: justify;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 100;
+  position: absolute;
+  top:148px;
+}
+
+
+.home {
+  color: rgb(189, 189, 189);
+
+ width: 100%;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 200;
+  text-align: center;
+  height: 30px;
+  font-size: 18px;
+  line-height: 18px;
+  transition: 0.4s;
+
+  cursor: pointer;
+}
+
+.home1 {
+  color: rgb(189, 189, 189);
+  position: absolute;
+  top:0px;
+ width: 100%;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 200;
+  text-align: center;
+  height: 30px;
+  font-size: 18px;
+  line-height: 18px;
+  transition: 0.4s;
+
+  cursor: pointer;
+}
+
+.about {
+  color:rgb(189, 189, 189);
+  width: 100%;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 200;
+  text-align: center;
+  height: 30px;
+  font-size: 18px;
+  line-height: 18px;
+  transition: 0.4s;
+  display: block;
+  cursor: pointer;
+
+}
+
+.menu{
+  top:55%;
+  width: 100%;
+  height: 45%;
+  position: absolute;
+}
+
+.resume{
+  color: rgb(189, 189, 189);
+  width:100%;
+  text-align: center;
+}
+
+.resumeenglish{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 200;
+  height: 30px;
+  font-size: 18px;
+  line-height: 18px;
+  cursor: pointer;
+}
+
+.resumechinese{
+  height: 30px;
+  font-size: 18px;
+  line-height: 18px;
+  cursor: pointer;
+}
+
+.ins{
+  width:20px;
+  height: 20px;
+  right: 50%;
+  position: absolute;
+  bottom:40%;
+  transform:translateX(50%);
+  transition: 0.4s;
+  opacity: 0.7;
+}
+
+.ins img {
+  width:100%;
+  height:100%;
+}
+
+.ins:hover{
+  opacity:1;
+}
+
+
+.portfolio {
+  color: rgb(189, 189, 189);
+  width: 100%;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 200;
+  text-align: center;
+  height: 30px;
+  font-size: 18px;
+  line-height: 18px;
+  transition: 4s;
+  cursor: pointer;
+
+}
+
+.home:hover,.about:hover, .portfolio:hover,.home1:hover,.resumechinese:hover{
+  opacity: 1;
+  color: white;
+
+}
+
+.contact{
+  color: rgb(189, 189, 189);
+  position: absolute;
+  bottom: 20%;
+  width: 100%;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 200;
+  text-align: center;
+  height: 30px;
+  font-size: 10px;
+  line-height: 20px;
+
+}
+
+.email{
+
+    color: white;
+    font-size: 11px;
+    letter-spacing:2px;
+
+}
+
+a {
+    text-decoration:none;
+    color: rgb(189, 189, 189);
+    transition: 0.2s;
+}
+
+a:hover {
+  color:white;
+}
+
+.table{
+  height:100vh;
+}
+
+
+.hello{
+  color:rgb(59, 59, 59);
+  font-family: 'Poppins', sans-serif;
+  text-align: justify;
+  font-size: 18px;
+
+  margin-top: 0px;
+
+  margin-right: 10px;
+
+
+}
+
+.yiyuan{
+  color:black;
+  font-family: 'Poppins', sans-serif;
+  text-align: justify;
+  font-size: 60px;
+  letter-spacing: 8px;
+  margin-top: -23px;
+  margin-bottom: 50px;
+  font-weight: 600;
+
+
+}
+
+
+
+.wood{
+  height:100%;
+  position: absolute;
+  left: :0px;
+  z-index: -1;
+}
+
+.sketch2{
+  width:45%;
+  height: auto;
+  position: absolute;
+  right:0px;
+  z-index: 3;
+}
+
+.sketch{
+  width:45%;
+  height: auto;
+  position: absolute;
+  right:0px;
+  top:15%;
+  z-index: 2;
+}
+
+.headshot{
+  position: absolute;
+  width:40%;
+  height:auto;
+  top:11%;
+  right: -10%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  float: right;
+}
+
+.abouttext{
+  position: absolute;
+  width: 40%;
+  left: 25%;
+  top:10%;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  color:rgb(74, 74, 74);
+  height: 30px;
+  font-size: 15px;
+  line-height: 20px;
+  z-index: 20;
+}
+
+.Ename{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  color:black;
+  vertical-align: bottom;
+  font-size: 40px;
+  line-height: 0px;
+
+}
+
+.wholename{
+  height:50px;
+  vertical-align: bottom;
+  margin-bottom: 20px;
+}
+
+.Cname{
+  font-family: "微软雅黑", "華文黑",sans-serif;
+  font-size: 70px;
+  line-height: 40px;
+  color:black;
+  vertical-align: bottom;
+
+}
+
+.year{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  color:rgb(103, 103, 103);
+  font-size: 10px;
+  line-height: 30px;
+}
+
+.text{
+  width: 800px;
+  position: absolute;
+  left: 25%;
+  bottom: 100px;
+  color:black;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  text-align: justify;
+  font-size: 50px;
+  z-index: 12;
+
+}
+
+
+
+
+
+
+.m{
+  font-size: 70px;
+  font-weight: 600;
+  letter-spacing: 3px;
+}
+
+.portfoliocontent{
+  height: 10000px;
+}
